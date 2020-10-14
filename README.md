@@ -1,7 +1,7 @@
 # Jasper-keras
-## Jasper is an end-to-end convolutional neural acoustic model developed by Jason Li et al. (https://arxiv.org/pdf/1904.03288.pdf)
+## Jasper architecture developed by Jason Li et al. (https://arxiv.org/pdf/1904.03288.pdf)
 
-This is an implementation of the model in python and keras.
+This is an implementation of the model using python and keras.
 
 
 ```
