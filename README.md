@@ -1,2 +1,4 @@
 # Jasper-keras
-## one liner to train a Japser deep learing model for speech recognition and speech recognition-like learning problems.
+## Jasper is an end-to-end convolutional neural acoustic model developped by Jason Li et al. (https://arxiv.org/pdf/1904.03288.pdf)
+
+This is an implementation of the model in python and keras.
