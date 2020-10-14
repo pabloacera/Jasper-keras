@@ -22,7 +22,7 @@ All Jasper models have four additional convolutional
 blocks: one pre-processing and three post-processing.
 https://arxiv.org/pdf/1904.03288.pdf
 
-```
+```python
 from tensorflow.keras import Input
 from tensorflow.keras.models import Model
 from jasper_keras import keras_jasper
