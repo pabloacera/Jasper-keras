@@ -144,6 +144,10 @@ def keras_jasper(inputs, R, B, output, Deep=None):
     
     return x
 
+'''
+# Example of building a Jasper network for binary classification 
+# with 4 blocks and 3 sublocks
+
 inputs = Input(shape=(100, 2))
 
 output = keras_jasper(inputs, 4, 3, 1, Deep=True)
@@ -152,4 +156,4 @@ output = build_Jasper(inputs, 1)
 model = Model(inputs=inputs, outputs=output)
 
 model.summary()
-
+'''
