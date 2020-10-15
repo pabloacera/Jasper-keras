@@ -20,7 +20,13 @@ through the activation function and dropout to produce the output
 of the current block.
 All Jasper models have four additional convolutional
 blocks: one pre-processing and three post-processing.
+Notice that in this repository the CTC decoder is not included.
 https://arxiv.org/pdf/1904.03288.pdf
+
+<p align="center">
+  <img src="/jasper_dense_residual.png">
+  <b>Visualization of a Jasper dense residual architecture (Jason Li et al, 2019)</b><br><br>
+</p>
 
 ### Arguments
 
