@@ -59,7 +59,7 @@ def last_sub_block(x, n_filter, kernel_s, droppout, prev_input):
 
 def keras_jasper(inputs, R, B, output, Deep=None):
     '''
-    a Jasper BxR model has B blocks, each with R subblocks. 
+    Jasper BxR model has B blocks, each with R subblocks. 
     Each sub-block applies the following operations: 
         1Dconvolution, 
         batch norm, 
