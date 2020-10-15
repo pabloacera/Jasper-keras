@@ -22,6 +22,17 @@ All Jasper models have four additional convolutional
 blocks: one pre-processing and three post-processing.
 https://arxiv.org/pdf/1904.03288.pdf
 
+### Arguments
+
+`keras_jasper(inputs, R=1, B=1, output_units, Deep=True)`
+
+- `inputs`: Input keras funtion with the dimensions of the first tensor.
+- `R`: Integer. Number of blocks to include in the architecture.
+- `B`: Integer. Number of sub-blocks to include in each block.
+- `output_units`: Integer. The number of output neurons.
+- `Deep`: include all previous residual connections (currectly only True)
+
+
 ```python
 from tensorflow.keras import Input
 from tensorflow.keras.models import Model
