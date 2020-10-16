@@ -1,7 +1,7 @@
 # Jasper-keras
 ## Jasper architecture developed by Jason Li et al. (https://arxiv.org/pdf/1904.03288.pdf)
 
-This is an implementation of the model using python and keras.
+This is an implementation of the Jasper architecture model using python and keras.
 
 Jasper BxR model has B blocks, each with R subblocks. 
 Each sub-block applies the following operations: 
