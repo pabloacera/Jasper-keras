@@ -47,8 +47,6 @@ from jasper_keras import keras_jasper
 
 inputs = Input(shape=(100, 2))
 
-# keras_jasper(inputs, R, B, output_untis, Deep=True)
-
 output = keras_jasper(inputs, 4, 3, 1, Deep=True)
 
 model = Model(inputs=inputs, outputs=output)
