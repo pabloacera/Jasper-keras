@@ -10,6 +10,12 @@ from tensorflow.keras.layers import Conv1D, MaxPooling1D, Dropout, \
 BatchNormalization, GlobalAveragePooling1D, Softmax, Add, Dense, Activation
 
 
+def _bn_relu(input):
+    """Helper to build a BN -> relu block
+    """
+    norm = BatchNormalization()(input)
+    return Activation("relu")(norm)
+
 def sub_block(x, n_filter, kernel_s, droppout):
     '''
     Sub-block of jasper
